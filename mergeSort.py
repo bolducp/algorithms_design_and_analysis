@@ -2,7 +2,7 @@ def mergeSort(a_list):
     if len(a_list) <= 1:
         return a_list
 
-    mid = len(a_list) / 2
+    mid = len(a_list) // 2
     left = a_list[:mid]
     right = a_list[mid:]
 
@@ -32,4 +32,4 @@ def merge(left, right):
     return merged_list
 
 print merge([3, 4, 5], [0, 2, 7, 8])
-print mergeSort([3, 4, 5, 0, 2, 7, 8])
+print mergeSort([3, 4, 5, 0, 2, 7, 8, 1])

@@ -65,4 +65,4 @@ function mergeV2(a, b) {
 
 
 console.log(merge([3, 4, 5], [0, 2, 7, 8]));
-console.log(mergeSort([3, 4, 5, 0, 2, 7, 8]));
+console.log(mergeSort([3, 4, 5, 0, 2, 7, 8, 1]));
